@@ -19,11 +19,17 @@ body{
 
 /* nav */
 .menu{
-  background: radial-gradient(ellipse,blue, aqua);
+  background: radial-gradient(ellipse,rgb(96, 149, 168), aqua);
   width: 70%;
   height: 25%;
 }
 
 /* footer */
+.pie{
+  background: radial-gradient(ellipse,rgb(121, 180, 50), aqua);
+  width: 70%;
+  height: 25%;
+}
 /*Este comentario esta modificado
 desde gihub*/
+
