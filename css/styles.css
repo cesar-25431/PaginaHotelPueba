@@ -2,6 +2,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif
 }
 body{
 
@@ -23,10 +24,16 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 1.563rem 1.563rem 0 0;
 }
 .cabecera img{
   object-fit: cover;
   height: 90%;
+}
+.cabecera img:hover{
+  object-fit: cover;
+  height: 100%;
+  transition: 0.25s;
 }
 
 /* nav */
@@ -48,6 +55,7 @@ body{
   align-items: center;
   text-decoration: none;
   color: #fff;
+  font-size: 1.3rem;
 }
 .enlace img{
   object-fit: cover;
@@ -69,11 +77,49 @@ body{
   background-color: #5010E0;
 }
 
+#link_1:hover{
+  background-color: #db722b;
+  transition: 0.25s;
+  
+}
+#link_2:hover{
+  background-color: #420d7b;
+}
+#link_3:hover{
+  background-color: #e71c1c;
+}
+#link_4:hover{
+  background-color: #298e5d;
+}
+#link_5:hover{
+  background-color: #e8ef22;
+}
+
 /* footer */
 .pie{
   background: radial-gradient(circle,rgb(69,209,255), rgb(0,121,213));
   width: 70%;
   height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius:  0 0 1.563rem 1.563rem;
+}
+h1{
+  font-size: 2.25rem;
+}
+hr{
+  width: 3.125rem;
+  height: 0.625rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.25rem;
+  margin: 1.25rem 0;
+}
+.pie p{
+  font-size: 1.063rem ;
 }
 /*Este comentario esta modificado
 desde gihub*/
